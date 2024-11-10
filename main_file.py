@@ -318,3 +318,26 @@ if st.session_state.visualization_started:
 
             # Display the bar chart for the model
             st.plotly_chart(fig)
+
+
+
+st.markdown(
+    """
+    <style>
+    .footer {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        color: #888888; /* Change this color as desired */
+        font-size: 14px;
+    }
+    </style>
+    <div class="footer">
+        
+    </div>
+    <div class="footer" style="right: 10px;">
+        Developed by Faraz.
+    </div>
+    """,
+    unsafe_allow_html=True
+)
